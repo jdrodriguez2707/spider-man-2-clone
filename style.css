@@ -14,9 +14,15 @@ html {
   align-items: center;
 }
 
+.navbar__container-logo {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 20px 0;
+}
+
 .navbar__logo {
-  width: 100%;
-  aspect-ratio: 8/3;
+  width: 50%;
+  aspect-ratio: 205/77;
 }
 
 .navbar__list {
@@ -26,21 +32,22 @@ html {
   list-style-type: none;
   font-family: "Raleway", sans-serif;
   font-weight: bold;
-  font-size: 1.3rem;
+  font-size: 1.6rem;
 }
 
 .navbar__item {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .navbar__link {
-  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-color: red;
   color: black;
   border-radius: 20px;
 }
 
 .navbar__link:hover {
-  text-decoration: underline;
+  text-decoration: none;
   color: red;
 }
 
