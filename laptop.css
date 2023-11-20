@@ -1,0 +1,98 @@
+.navbar__menu {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 10px;
+}
+
+.navbar__container-logo {
+  margin: 0;
+}
+
+.navbar__options {
+  width: 100%;
+}
+
+.navbar__list {
+  font-size: 2rem;
+}
+
+.navbar__button-signin {
+  width: 10rem;
+  font-size: 1.8rem;
+}
+
+.banner-container {
+  position: relative;
+}
+
+.game {
+  position: absolute;
+  top: 80px;
+  background-color: transparent;
+}
+
+.game::before {
+  background: transparent;
+}
+
+.game__info-container {
+  top: 0;
+  margin-left: 10vw;
+  height: 35vh;
+}
+
+.game__title {
+  font-size: 4.8rem;
+}
+
+.game__text--price {
+  font-size: 2.6rem;
+}
+
+.game__button {
+  padding: 16px;
+  font-size: 1.8rem;
+}
+
+.favorite-icon {
+  height: 3em;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.media-container__video {
+  width: 720px;
+  height: 405px;
+  position: relative;
+}
+
+.overview__body {
+  top: 60px;
+  display: flex;
+  padding: 0 10vw;
+  gap: 100px;
+}
+
+.overview__title {
+  font-size: 4.4rem;
+}
+
+.overview__paragraph-container {
+  padding-top: 34px;
+}
+
+.features__image-caption {
+  padding: 0 40px;
+}
+
+.features__subtitle {
+  font-size: 2.2rem;
+}
+
+.features__paragraph {
+  font-size: 1.8rem;
+}

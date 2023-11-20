@@ -1,0 +1,26 @@
+.navbar__menu {
+  width: 100%;
+}
+
+.navbar__list {
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.media-container__img,
+.media-container__video {
+  padding: 30px;
+  border-radius: 40px;
+}
+
+.overview {
+  padding: 220px 0 40px 20px;
+}
+
+.features__container {
+  justify-content: space-between;
+}
+
+.features__media {
+  width: 45%;
+}

@@ -1,0 +1,22 @@
+.media-container__img {
+  padding: 60px;
+  border-radius: 80px;
+}
+
+.media-container__video {
+  width: 1080px;
+  height: 608px;
+  position: relative;
+}
+
+.overview__paragraph {
+  font-size: 2rem;
+}
+
+.features__media {
+  width: 25%;
+}
+
+.features__subtitle {
+  font-size: 2.8rem;
+}
