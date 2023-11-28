@@ -279,12 +279,12 @@ html {
 
 .features__image {
   width: 80%;
-  aspect-ratio: 300/353;
+  aspect-ratio: 400/471;
   border: 2px solid #3a8080;
 }
 
 .features__image--big {
-  aspect-ratio: 600/707;
+  aspect-ratio: 800/943;
 }
 
 .features__image-caption {
