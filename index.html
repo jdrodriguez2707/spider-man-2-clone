@@ -102,7 +102,7 @@
           </g>
         </svg>
 
-        <button class="navbar__button-signin">Sign In</button>
+        <button class="navbar__button-signin">sign in</button>
       </div>
       <div class="navbar__menu">
         <figure class="navbar__container-logo">
@@ -116,14 +116,14 @@
         <nav class="navbar__options">
           <ul class="navbar__list">
             <li class="navbar__item">
-              <a class="navbar__link" href="#media">Gameplay</a>
+              <a class="navbar__link" href="#media">gameplay</a>
             </li>
             <li class="navbar__item">
-              <a class="navbar__link" href="#overview">Overview</a>
+              <a class="navbar__link" href="#overview">overview</a>
             </li>
             <li class="navbar__item">
               <a class="navbar__link" href="#features">
-                What's new in Marvel's Spider-Man 2?
+                what's new in marvel's spider-man 2?
               </a>
             </li>
           </ul>
@@ -150,17 +150,17 @@
         <div class="game">
           <div class="game__info-container">
             <header>
-              <h1 class="game__title">Marvel's Spider-Man 2</h1>
+              <h1 class="game__title">marvel's spider-man 2</h1>
             </header>
             <span class="game__text game__text--bold"
-              >Sony Interactive Entertainment</span
+              >sony interactive entertainment</span
             >
             <span class="game__text"
-              >Available on <span class="game__text--ps5">PS5</span></span
+              >available on <span class="game__text--ps5">ps5</span></span
             >
             <span class="game__text--price">$69.99</span>
             <div>
-              <button class="game__button">Add to Cart</button>
+              <button class="game__button">add to cart</button>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 height="2em"
@@ -179,34 +179,114 @@
 
       <section id="media" class="media">
         <figure class="media-container">
-          <img
-            class="media-container__img"
-            src="./assets/images/spider-man-2-screenshot-story-duo-4k-legal.webp"
-            loading="lazy"
-            alt="Marvel's Spider-Man 2 duo"
-            title="Spider-Man duo"
-          />
-          <img
-            class="media-container__img"
-            src="./assets/images/spider-man-2-reveal-venom-4K-legal.webp"
-            loading="lazy"
-            alt="Villain Venom in Marvel's Spider-Man 2"
-            title="Villain Venom"
-          />
-          <img
-            class="media-container__img"
-            src="./assets/images/spider-man-2-screenshot-miles-enhanced-venom.webp"
-            loading="lazy"
-            alt="Miles Morales enhanced"
-            title="Miles Morales"
-          />
-          <img
-            class="media-container__img"
-            src="./assets/images/spider-man-2-screenshot-symbiote-4k-legal.webp"
-            loading="lazy"
-            alt="Spider-Man with symbiote"
-            title="Symbiote"
-          />
+          <picture class="media-container__img-container">
+            <source
+              srcset="
+                ./assets/images-responsive/large-spider-man-2-screenshot-story-duo-4k-legal-13jul23.webp
+              "
+              media="(min-width: 1600px)"
+            />
+            <source
+              srcset="
+                ./assets/images-responsive/small-spider-man-2-screenshot-story-duo-4k-legal-13jul23.webp
+              "
+              media="(min-width: 800px)"
+            />
+            <source
+              srcset="
+                ./assets/images-responsive/medium-spider-man-2-screenshot-story-duo-4k-legal-13jul23.webp
+              "
+              media="(min-width: 600px)"
+            />
+            <img
+              class="media-container__img"
+              src="./assets/images-responsive/small-spider-man-2-screenshot-story-duo-4k-legal-13jul23.webp"
+              loading="lazy"
+              alt="Marvel's Spider-Man 2 duo"
+              title="Spider-Man duo"
+            />
+          </picture>
+          <picture class="media-container__img-container">
+            <source
+              srcset="
+                ./assets/images-responsive/large-spider-man-2-reveal-venom-4K-legal_2022-en-12dec22.webp
+              "
+              media="(min-width: 1600px)"
+            />
+            <source
+              srcset="
+                ./assets/images-responsive/small-spider-man-2-reveal-venom-4K-legal_2022-en-12dec22.webp
+              "
+              media="(min-width: 800px)"
+            />
+            <source
+              srcset="
+                ./assets/images-responsive/medium-spider-man-2-reveal-venom-4K-legal_2022-en-12dec22.webp
+              "
+              media="(min-width: 600px)"
+            />
+            <img
+              class="media-container__img"
+              src="./assets/images-responsive/small-spider-man-2-reveal-venom-4K-legal_2022-en-12dec22.webp"
+              loading="lazy"
+              alt="Villain Venom in Marvel's Spider-Man 2"
+              title="Villain Venom"
+            />
+          </picture>
+          <picture class="media-container__img-container">
+            <source
+              srcset="
+                ./assets/images-responsive/large-spider-man-2-screenshot-miles-enhanced-venom-en-25may23.webp
+              "
+              media="(min-width: 1600px)"
+            />
+            <source
+              srcset="
+                ./assets/images-responsive/small-spider-man-2-screenshot-miles-enhanced-venom-en-25may23.webp
+              "
+              media="(min-width: 800px)"
+            />
+            <source
+              srcset="
+                ./assets/images-responsive/medium-spider-man-2-screenshot-miles-enhanced-venom-en-25may23.webp
+              "
+              media="(min-width: 600px)"
+            />
+            <img
+              class="media-container__img"
+              src="./assets/images-responsive/small-spider-man-2-screenshot-miles-enhanced-venom-en-25may23.webp"
+              loading="lazy"
+              alt="Miles Morales enhanced"
+              title="Miles Morales"
+            />
+          </picture>
+          <picture class="media-container__img-container">
+            <source
+              srcset="
+                ./assets/images-responsive/large-spider-man-2-screenshot-symbiote-4k-legal-13jul23.webp
+              "
+              media="(min-width: 1600px)"
+            />
+            <source
+              srcset="
+                ./assets/images-responsive/small-spider-man-2-screenshot-symbiote-4k-legal-13jul23.webp
+              "
+              media="(min-width: 800px)"
+            />
+            <source
+              srcset="
+                ./assets/images-responsive/medium-spider-man-2-screenshot-symbiote-4k-legal-13jul23.webp
+              "
+              media="(min-width: 600px)"
+            />
+            <img
+              class="media-container__img"
+              src="./assets/images-responsive/small-spider-man-2-screenshot-symbiote-4k-legal-13jul23.webp"
+              loading="lazy"
+              alt="Spider-Man with symbiote"
+              title="Symbiote"
+            />
+          </picture>
           <div class="video-container">
             <iframe
               class="media-container__video"
@@ -223,8 +303,8 @@
       <section id="overview" class="overview">
         <div class="overview__body">
           <header>
-            <span class="overview__subtitle">Game overview</span>
-            <h2 class="overview__title">BE GREATER. TOGETHER.</h2>
+            <span class="overview__subtitle">game overview</span>
+            <h2 class="overview__title">be greater. together.</h2>
           </header>
           <div class="overview__paragraph-container">
             <p class="overview__paragraph">
@@ -245,17 +325,31 @@
 
       <section id="features" class="features">
         <header>
-          <h2 class="features__title">MARVEL'S SPIDER-MAN 2 KEY FEATURES</h2>
+          <h2 class="features__title">marvel's spider-man 2 key features</h2>
         </header>
         <div class="features__container">
           <figure class="features__media">
-            <img
-              class="features__image"
-              src="./assets/images/marvels-spiderman-2-key-features-carousel-symbiote.webp"
-              loading="lazy"
-              alt="Spider-Man with symbiote in the carousel"
-              title="Symbiote in a carousel"
-            />
+            <picture>
+              <source
+                srcset="
+                  ./assets/images-responsive/small-marvels-spiderman-2-key-features-carousel-symbiote-en-05oct23.webp
+                "
+                media="(min-width: 1600px)"
+              />
+              <source
+                srcset="
+                  ./assets/images-responsive/medium-marvels-spiderman-2-key-features-carousel-symbiote-en-05oct23.webp
+                "
+                media="(min-width: 800px)"
+              />
+              <img
+                class="features__image"
+                src="./assets/images-responsive/small-marvels-spiderman-2-key-features-carousel-symbiote-en-05oct23.webp"
+                loading="lazy"
+                alt="Spider-Man with symbiote in the carousel"
+                title="Symbiote in a carousel"
+              />
+            </picture>
             <figcaption class="features__image-caption">
               <h3 class="features__subtitle">
                 An evolution of the Spider-Man story
@@ -269,13 +363,27 @@
             </figcaption>
           </figure>
           <figure class="features__media">
-            <img
-              class="features__image"
-              src="./assets/images/marvels-spiderman-2-key-features-carousel-two-spidermen.webp"
-              loading="lazy"
-              alt="Spider-men in the carousel"
-              title="Spider-men in a carousel"
-            />
+            <picture>
+              <source
+                srcset="
+                  ./assets/images-responsive/small-marvels-spiderman-2-key-features-carousel-two-spidermen-en-03oct23.webp
+                "
+                media="(min-width: 1600px)"
+              />
+              <source
+                srcset="
+                  ./assets/images-responsive/medium-marvels-spiderman-2-key-features-carousel-two-spidermen-en-03oct23.webp
+                "
+                media="(min-width: 800px)"
+              />
+              <img
+                class="features__image"
+                src="./assets/images-responsive/small-marvels-spiderman-2-key-features-carousel-two-spidermen-en-03oct23.webp"
+                loading="lazy"
+                alt="Spider-men in the carousel"
+                title="Spider-men in a carousel"
+              />
+            </picture>
             <figcaption class="features__image-caption">
               <h3 class="features__subtitle">
                 Experience two playable Spider-Men
@@ -287,13 +395,27 @@
             </figcaption>
           </figure>
           <figure class="features__media">
-            <img
-              class="features__image features__image--big"
-              src="./assets/images/marvels-spiderman-2-key-features-carousel-venom.webp"
-              loading="lazy"
-              alt="Villain venom in the carousel"
-              title="Venom in a carousel"
-            />
+            <picture>
+              <source
+                srcset="
+                  ./assets/images-responsive/small-marvels-spiderman-2-key-features-carousel-venom-en-03oct23.webp
+                "
+                media="(min-width: 1600px)"
+              />
+              <source
+                srcset="
+                  ./assets/images-responsive/medium-marvels-spiderman-2-key-features-carousel-venom-en-03oct23.webp
+                "
+                media="(min-width: 800px)"
+              />
+              <img
+                class="features__image features__image--big"
+                src="./assets/images-responsive/small-marvels-spiderman-2-key-features-carousel-venom-en-03oct23.webp"
+                loading="lazy"
+                alt="Villain venom in the carousel"
+                title="Venom in a carousel"
+              />
+            </picture>
             <figcaption class="features__image-caption">
               <h3 class="features__subtitle">
                 Battle iconic Marvel Super Villains
@@ -306,13 +428,27 @@
             </figcaption>
           </figure>
           <figure class="features__media">
-            <img
-              class="features__image"
-              src="./assets/images/marvels-spiderman-2-key-features-carousel-coney-island.webp"
-              loading="lazy"
-              alt="A carousel in Coney Island"
-              title="A carousel"
-            />
+            <picture>
+              <source
+                srcset="
+                  ./assets/images-responsive/small-marvels-spiderman-2-key-features-carousel-coney-island-en-03oct23.webp
+                "
+                media="(min-width: 1600px)"
+              />
+              <source
+                srcset="
+                  ./assets/images-responsive/medium-marvels-spiderman-2-key-features-carousel-coney-island-en-03oct23.webp
+                "
+                media="(min-width: 800px)"
+              />
+              <img
+                class="features__image"
+                src="./assets/images-responsive/small-marvels-spiderman-2-key-features-carousel-coney-island-en-03oct23.webp"
+                loading="lazy"
+                alt="A carousel in Coney Island"
+                title="A carousel"
+              />
+            </picture>
             <figcaption class="features__image-caption">
               <h3 class="features__subtitle">
                 Visit an expanded Marvel's New York
