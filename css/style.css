@@ -129,8 +129,11 @@ html {
 .game__text,
 .game__button {
   font-family: var(--text-font-family);
-  text-transform: capitalize;
   font-size: 1.5rem;
+}
+
+.game__text::first-letter {
+  text-transform: uppercase;
 }
 
 .game__text--ps5 {
@@ -144,6 +147,7 @@ html {
 .game__text--bold {
   font-size: 1.8rem;
   font-weight: bold;
+  text-transform: capitalize;
 }
 
 .game__text--price {
@@ -162,6 +166,10 @@ html {
   font-weight: bold;
   margin-right: 10px;
   vertical-align: middle;
+}
+
+.game__button::first-letter {
+  text-transform: capitalize;
 }
 
 .favorite-icon {
