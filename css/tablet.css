@@ -12,6 +12,9 @@
 
 .media {
   padding: 100px 0;
+  --sb-track-color: #f1f1f1;
+  --sb-thumb-color: #ff0000;
+  --sb-size: 12px;
 }
 
 .media-container {
@@ -39,4 +42,24 @@
 
 .video-container {
   padding-bottom: 0px;
+}
+
+.media-container::-webkit-scrollbar {
+  height: var(--sb-size);
+}
+
+.media-container::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 8px;
+}
+
+.media-container::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 8px;
+}
+
+@supports not selector(::-webkit-scrollbar) {
+  .media-container {
+    scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+  }
 }
