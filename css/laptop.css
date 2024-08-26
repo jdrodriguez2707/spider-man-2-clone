@@ -19,6 +19,10 @@
 .navbar__button-signin {
   width: 10rem;
   font-size: 1.8rem;
+  transition: background-color 0.3s ease-in-out; 
+  &:hover {
+    background-color: #0056b3;
+  }
 }
 
 .banner-container {
@@ -52,6 +56,10 @@
 .game__button {
   padding: 16px;
   font-size: 1.8rem;
+  transition: background-color 0.3s ease-in-out; 
+  &:hover {
+    background-color: #ae3606;
+  }
 }
 
 .favorite-icon {
