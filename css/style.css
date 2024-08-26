@@ -20,7 +20,15 @@ html {
   flex-direction: column;
   align-items: center;
   font-family: var(--text-font-family);
+  color: var(--secondary-background-color);
   font-weight: bold;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #fff;
+  animation: enhance-header linear both;
+  animation-timeline: scroll(root block);
+  animation-range: 0 200px;
 }
 
 .navbar__icons {
@@ -51,12 +59,14 @@ html {
 .navbar__container-logo {
   margin: 20px 0;
   text-align: center;
+  animation: reduce-logo linear both;
+  animation-timeline: scroll(root block);
+  animation-range: 0 200px;
 }
 
 .navbar__logo {
-  width: 50%;
-  max-width: 400px;
-  aspect-ratio: 8/3;
+  max-width: 200px;
+  aspect-ratio: 256 / 83;
 }
 
 .navbar__list {
@@ -75,6 +85,9 @@ html {
   color: #000000;
   text-decoration: none;
   text-transform: capitalize;
+  animation: change-color linear both;
+  animation-timeline: scroll(root block);
+  animation-range: 0 200px;
 }
 
 .navbar__link:hover {
@@ -318,4 +331,25 @@ html {
 
 .my-github__link {
   color: #f402f4;
+}
+
+@keyframes enhance-header {
+  to {
+    transform: translateY(-50px);
+    background-color: rgba(255, 0, 0, 0.3);
+    backdrop-filter: blur(5px);
+    color: #fff;
+  }
+}
+
+@keyframes reduce-logo {
+  to {
+    transform: scale(0.8);
+  }
+}
+
+@keyframes change-color {
+  to {
+    color: #fff;
+  }
 }
