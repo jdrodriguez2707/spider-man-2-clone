@@ -1,11 +1,4 @@
-.media-container__img {
-  padding: 60px;
-  border-radius: 80px;
-}
-
 .media-container__video {
-  width: 1080px;
-  height: 608px;
   position: relative;
 }
 

@@ -1,5 +1,6 @@
 .navbar__icon,
-.navbar__button-signin {
+.navbar__button-signin,
+.game__button {
   cursor: pointer;
 }
 
@@ -9,6 +10,33 @@
   align-items: center;
 }
 
+.media {
+  padding: 100px 0;
+}
+
+.media-container {
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  white-space: nowrap;
+  gap: 100px;
+  animation: reveal linear both;
+  animation-timeline: view();
+  animation-range: entry 20% cover 50%;
+}
+
 .media-container__img-container {
   width: 50%;
+}
+
+.media-container__img {
+  width: 500px;
+}
+
+.media-container__video {
+  width: 500px;
+  height: 281.25px;
+}
+
+.video-container {
+  padding-bottom: 0px;
 }
