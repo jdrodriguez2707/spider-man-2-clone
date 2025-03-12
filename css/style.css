@@ -66,8 +66,8 @@ html {
 }
 
 .navbar__logo {
-  max-width: 200px;
-  aspect-ratio: 256 / 83;
+  max-inline-size: 200px;
+  block-size: auto;
 }
 
 .navbar__list {
