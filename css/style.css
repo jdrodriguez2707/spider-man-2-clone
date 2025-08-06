@@ -231,7 +231,7 @@ html {
 
 .overview {
   position: relative;
-  background-image: url(../assets/images/marvels-spider-man-2-page-banner-desktop-miles-and-peter-01-en-11sep23.webp);
+  background-image: url('../assets/images/marvels-spider-man-2-page-banner-desktop-miles-and-peter-01-en-11sep23-1x.webp');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -241,6 +241,20 @@ html {
   font-size: 1.5rem;
   padding-left: 10px;
 }
+
+/* DPR 2 */
+@media (min-resolution: 2dppx), (min-device-pixel-ratio: 2) {
+  .overview {
+    background-image: url('../assets/images/marvels-spider-man-2-page-banner-desktop-miles-and-peter-01-en-11sep23-2x.webp');
+  }
+}
+
+/* DPR 3 */
+/* @media (min-resolution: 3dppx), (min-device-pixel-ratio: 3) {
+  .overview {
+    background-image: url('../assets/images/marvels-spider-man-2-page-banner-desktop-miles-and-peter-01-en-11sep23-3x.webp');
+  }
+} */
 
 .overview::before {
   content: "";
